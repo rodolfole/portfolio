@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +28,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.t {
+  width: 50px;
+  height: 25px;
+  border: 1pz solid #999;
+  background-color: white;
+  z-index: 999;
 }
