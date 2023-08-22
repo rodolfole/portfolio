@@ -40,8 +40,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto py-5 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <FaFreebsd className="w-8" />
-          <span className="text-2xl font-bold text-indigo-900 dark:text-white">
+          <span className="text-lg md:text-2xl font-bold text-indigo-900 dark:text-white">
             Rodolfo Lara
           </span>
         </div>
