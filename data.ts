@@ -3,6 +3,8 @@ import {
   SiGraphql,
   SiJavascript,
   SiMongodb,
+  SiMysql,
+  SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
@@ -48,8 +50,16 @@ export default {
       label: "NodeJS",
     },
     {
+      icon: SiNestjs,
+      label: "NestJS",
+    },
+    {
       icon: SiMongodb,
       label: "MongoDB",
+    },
+    {
+      icon: SiMysql,
+      label: "MySQL",
     },
     {
       icon: SiGraphql,
@@ -68,7 +78,8 @@ export default {
   ],
   works: [
     {
-      description: "",
+      description:
+        "This project is an Airbnb clone where you can create properties, make reservations, and add them to favorites.",
       github: "https://github.com/rodolfole/next-rental-app",
       name: "Airbnb Clone",
       preview:
@@ -76,7 +87,8 @@ export default {
       web: "https://next-rental-app.vercel.app",
     },
     {
-      description: "",
+      description:
+        "It is a full-stack e-commerce project that enables shopping using the payment methods Mercado Pago and Stripe.",
       github: "https://github.com/rodolfole/next-ecommerce-front",
       name: "Ecommerce",
       preview:
@@ -85,7 +97,7 @@ export default {
     },
     {
       description:
-        "Somos fabricantes y proveedores de confianza, ofreciendo soluciones personalizadas para satisfacer todas tus necesidades en puertas y aluminios para el hogar o negocio",
+        "This website displays information about the business Aluminios y Puertas del Desierto, which offers personalized solutions in doors and aluminum for home or business.",
       github: "https://github.com/rodolfole/aluminios-y-puertas-del-desierto",
       name: "Aluminios y Puertas del Desierto",
       preview:
@@ -93,7 +105,8 @@ export default {
       web: "https://aluminiosypuertas.com",
     },
     {
-      description: "",
+      description:
+        "This landing page showcases the services and information of Barriles Charly, focusing on high-quality barrel production.",
       github: "https://github.com/rodolfole/barriles-charly",
       name: "Barriles Charly",
       preview:
@@ -101,7 +114,8 @@ export default {
       web: "https://www.barrilescharly.com",
     },
     {
-      description: "",
+      description:
+        "This project displays the Pokémon consuming the pokeapi.co API, allowing the user to add them to their favorites.",
       github: "https://github.com/rodolfole/next-pokemon-static",
       name: "Pokemon Base",
       preview:
@@ -109,7 +123,8 @@ export default {
       web: "https://next-pokemon-base.vercel.app",
     },
     {
-      description: "",
+      description:
+        "Landing page showcasing the services offered by the business Parador Don Gil and contact information.",
       github: "https://github.com/rodolfole/parador-de-gil",
       name: "Parador de Gil",
       preview:

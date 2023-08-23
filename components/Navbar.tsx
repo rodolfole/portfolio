@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { FaBars, FaFreebsd } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 import data from "@/data";
 import ThemeButton from "@/components/ThemeButton";

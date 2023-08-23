@@ -14,7 +14,7 @@ const Hero = () => {
           alt="Follow us on Twitter"
         />
       </div>
-      <div className="relative flex flex-col items-center md:items-start lg:absolute lg:top-1/3 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+      <div className="relative flex flex-col items-center px-9 md:p-0 lg:items-start lg:absolute lg:top-1/3 text-xl  sm:text-4xl  md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
         <span className="text-xl md:text-3xl text-black dark:text-white">
           Hello, I am
         </span>
@@ -25,8 +25,8 @@ const Hero = () => {
           className="text-black dark:text-white text-base md:text-xl font-normal tracking-tight my-2 w-full md:w-[520px]"
           style={{ wordBreak: "break-word" }}
         >
-          Soy un apasionado del desarrollo full stack que da vida a las ideas a
-          través del código. Desde la arquitectura hasta la interfaz de usuario.
+          I am passionate about full-stack development that brings ideas to life
+          through code. From architecture to user interface.
         </p>
         <SocialLinks className="text-black" />
         <Button className="opacity-100 p-2 mt-12 text-base rounded-lg h-12 w-44 bg-gradient-to-r from-purple-600 to-bright-pink relative ">
