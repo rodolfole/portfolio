@@ -34,14 +34,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full fixed top-0 z-20 ${
+      className={`w-full fixed top-0 z-20 flex justify-center ${
         headerBg ? "bg-white dark:bg-slate-900" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto py-5 flex items-center justify-between">
+      <div className="max-w-7xl w-full py-5 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-lg md:text-2xl font-bold text-indigo-900 dark:text-white">
-            Rodolfo Lara
+            Portfolio
           </span>
         </div>
         <div className="flex gap-4">

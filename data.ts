@@ -18,7 +18,7 @@ export default {
         label: "Home",
       },
       {
-        label: "Portfolio",
+        label: "Works",
       },
       {
         label: "Skills",

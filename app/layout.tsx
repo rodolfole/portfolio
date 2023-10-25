@@ -4,10 +4,6 @@ import { Inter } from "next/font/google";
 
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import Contact from "@/components/sections/Contact";
-import Hero from "@/components/sections/Hero";
-import Skills from "@/components/sections/Skills";
-import Works from "@/components/sections/Works";
 import ThemesProvider from "@/providers/ThemesProvider";
 import ToasterProvider from "@/providers/ToasterProvider";
 
@@ -29,10 +25,6 @@ export default function RootLayout({
         <ThemesProvider>
           <ToasterProvider />
           <Navbar />
-          <Hero />
-          <Works />
-          <Skills />
-          <Contact />
           {children}
           <Footer />
         </ThemesProvider>

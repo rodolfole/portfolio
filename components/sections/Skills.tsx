@@ -2,7 +2,7 @@ import data from "@/data";
 
 const Skills = () => {
   return (
-    <section className="bg-white dark:bg-slate-900 py-40" id="skills">
+    <section className="max-w-7xl w-full py-40" id="skills">
       <div className="container mx-auto">
         <div className="flex flex-col gap-3 items-center">
           <h1 className="text-bright-pink font-bold text-3xl">SKILLS</h1>

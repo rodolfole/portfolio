@@ -3,10 +3,10 @@ import Button from "@/components/ui/Button";
 
 const Works = () => {
   return (
-    <section className="pt-40 bg-white dark:bg-slate-900" id="portfolio">
+    <section className="max-w-7xl w-full pt-40" id="works">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-3 items-center">
-          <h1 className="text-bright-pink font-bold text-3xl">PORTFOLIO</h1>
+        <div className="flex flex-col items-center">
+          <h1 className="text-bright-pink font-bold text-3xl">WORKS</h1>
         </div>
         <div
           className="
@@ -24,7 +24,7 @@ const Works = () => {
           {data.works.map(
             ({ description, github, preview, name, web }, index) => (
               <div
-                className="relative shadow-xl overflow-hidden h-[400px] w-full md:w-[450px] bg-slate-100 rounded-xl group"
+                className="relative shadow-xl overflow-hidden h-[400px] w-full md:w-[400px] bg-slate-100 rounded-xl group"
                 key={index}
               >
                 <img

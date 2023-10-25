@@ -4,17 +4,10 @@ import SocialLinks from "@/components/SocialLinks";
 const Hero = () => {
   return (
     <section
-      className="relative h-screen w-full bg-white dark:bg-slate-900"
+      className="min-h-screen max-w-7xl w-full flex justify-center md:justify-between items-center flex-col md:flex-row"
       id="home"
     >
-      <div className="relative lg:absolute flex m-auto lg:top-[5%] lg:left-1/2 mb-10 w-[300px] md:w-[400px] lg:w-[600px]">
-        <img
-          className="rotate-180 w-full mt-14 lg:mt-32"
-          src="/hero_gradient.svg"
-          alt="Follow us on Twitter"
-        />
-      </div>
-      <div className="relative flex flex-col items-center px-9 md:p-0 lg:items-start lg:absolute lg:top-1/3 text-xl  sm:text-4xl  md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+      <div className="relative flex flex-col items-center px-9 md:p-0 lg:items-start text-xl sm:text-4xl md:text-6xl xl:text-7xl font-bold order-2 md:order-1 ">
         <span className="text-xl md:text-3xl text-black dark:text-white">
           Hello, I am
         </span>
@@ -34,6 +27,13 @@ const Hero = () => {
             <a href="#contact">Contact Me</a>
           </div>
         </Button>
+      </div>
+      <div className="w-[300px] md:w-[400px] order-1 md:order-2 mb-24 md:mb-0">
+        <img
+          className="rounded-full w-full"
+          src="/myphoto.png"
+          alt="Follow us on Twitter"
+        />
       </div>
     </section>
   );
