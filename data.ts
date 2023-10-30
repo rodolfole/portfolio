@@ -73,7 +73,7 @@ export default {
     },
     {
       icon: FaLinkedin,
-      url: "https://www.linkedin.com/in/luis-lara-288b3315a/",
+      url: "https://www.linkedin.com/in/rodolfo-lara/",
     },
   ],
   works: [
