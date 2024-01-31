@@ -79,6 +79,15 @@ export default {
   works: [
     {
       description:
+        "Teslo shop is a fullstack project in Nextjs implementing server actions and using Paypal as a payment method.",
+      github: "https://github.com/rodolfole/teslo-shop",
+      name: "Tesla shop clone",
+      preview:
+        "https://res.cloudinary.com/dtqijixar/image/upload/v1706707723/portfolio/Tesla-shop_thumnail_azhc2x.png",
+      web: "https://next14-teslo-shop.vercel.app",
+    },
+    {
+      description:
         "This project is an Airbnb clone where you can create properties, make reservations, and add them to favorites.",
       github: "https://github.com/rodolfole/next-rental-app",
       name: "Airbnb Clone",
@@ -112,15 +121,6 @@ export default {
       preview:
         "https://res.cloudinary.com/dtqijixar/image/upload/v1692417420/Previews/barriles-charly_thumnail_vl7p1b.jpg",
       web: "https://www.barrilescharly.com",
-    },
-    {
-      description:
-        "This project displays the Pokémon consuming the pokeapi.co API, allowing the user to add them to their favorites.",
-      github: "https://github.com/rodolfole/next-pokemon-static",
-      name: "Pokemon Base",
-      preview:
-        "https://res.cloudinary.com/dtqijixar/image/upload/v1692228802/Previews/Pokemom-base_thumnail_in7aqf.jpg",
-      web: "https://next-pokemon-base.vercel.app",
     },
     {
       description:
