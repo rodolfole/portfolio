@@ -1,5 +1,4 @@
 import data from "@/data";
-import Button from "@/components/ui/Button";
 
 const Works = () => {
   return (
@@ -36,18 +35,14 @@ const Works = () => {
                   <h3 className="text-2xl font-semibold">{name}</h3>
                   <p className="w-full text-white/80">{description}</p>
                   <div className="flex gap-3 w-full mt-3">
-                    <Button className="opacity-100 text-base rounded-lg h-10 w-32 bg-gradient-to-r from-purple-600 to-bright-pink relative ">
-                      <a href={github} rel="noreferrer" target="_blank">
-                        Repository
-                      </a>
-                    </Button>
-                    <Button className="opacity-100 text-base rounded-lg h-10 w-32 bg-gradient-to-r from-purple-600 to-bright-pink relative ">
-                      <div className="absolute bg-black m-auto rounded-md h-[calc(100%-4px)] w-[calc(100%-4px)] inset-0 flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-bright-pink">
-                        <a href={web} rel="noreferrer" target="_blank">
-                          Demo
-                        </a>
-                      </div>
-                    </Button>
+                    <a className="opacity-100 text-base rounded-lg h-10 w-32 bg-gradient-to-r from-purple-600 to-bright-pink relative flex justify-center items-center" href={github} rel="noreferrer" target="_blank">
+                      Repository
+                    </a>
+                    <a className="opacity-100 text-base rounded-lg h-10 w-32 bg-gradient-to-r from-purple-600 to-bright-pink relative flex justify-center items-center" href={web} rel="noreferrer" target="_blank">
+                      <span className="absolute bg-black m-auto rounded-md h-[calc(100%-4px)] w-[calc(100%-4px)] inset-0 flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-bright-pink">
+                        Demo
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>
