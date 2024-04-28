@@ -36,6 +36,7 @@ const ContactEmail: FC<Readonly<ContactEmailProps>> = ({
                 height="37"
                 alt="Rodolfo Lara Logo"
                 className="my-0 mx-auto"
+                loading="eager"
               />
             </Section>
             <Heading className="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0">

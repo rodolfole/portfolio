@@ -30,6 +30,7 @@ const Works = () => {
                   alt={`Work ${name}`}
                   className="object-cover w-full h-full transition duration-200 group-hover:scale-105"
                   src={preview}
+                  loading="eager"
                 />
                 <div className="opacity-0 group-hover:opacity-100 p-8 flex transition duration-200 flex-col items-start justify-end absolute w-full h-full inset-0 z-10 bg-gradient-to-b from-transparent  to-black/80">
                   <h3 className="text-2xl font-semibold">{name}</h3>

@@ -31,8 +31,9 @@ const Hero = () => {
       <div className="w-[300px] md:w-[400px] order-1 md:order-2 mb-24 md:mb-0">
         <img
           className="rounded-full w-full"
-          src="/myphoto.png"
-          alt="Follow us on Twitter"
+          src="/myphoto.webp"
+          alt="Profile image"
+          loading="eager"
         />
       </div>
     </section>
